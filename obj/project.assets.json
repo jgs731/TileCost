@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\workspace\\TileCost\\TileCost.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\TileCost\\TileCost.csproj",
       "projectName": "TileCost",
-      "projectPath": "C:\\Users\\User\\Documents\\workspace\\TileCost\\TileCost.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\TileCost\\TileCost.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\workspace\\TileCost\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\TileCost\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0BdcJznoJ6gmMfAWaMN2d8SHq0sVmp6MTKvrNeWdBZetlm9O+bD73uxzK/nBL9knZAZZCWVTO4y+OAL0WlheQQ==",
+  "dgSpecHash": "e7gau1VYcODSn/7DE06HtpI7FOJCuJOhLQSeEI+5GUfU3IubOCheUGGX4eXqvg+sNZReM0UnfjPGTrsp6Pm4dQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\workspace\\TileCost\\TileCost.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\TileCost\\TileCost.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -12,6 +12,9 @@ namespace TileCost
             int area;
             double total_cost;
             string room_type;
+            int labour_costs;
+            int labour_salary = 86;
+            int square_feet_per_hour = 20;
 
             Console.Write("What is the shape of the room? ");
             room_type = Console.ReadLine();
@@ -27,8 +30,10 @@ namespace TileCost
             {
                 area = width * height;
             }
-            total_cost = cost_per_unit * area;
-            Console.Write($"Quote for carpet: £{total_cost}");
+            labour_costs = labour_salary * (area / square_feet_per_hour);
+            Console.Write($"Salary costs: £{labour_costs}");
+            total_cost = cost_per_unit * area + labour_costs;
+            Console.WriteLine($"Quote for carpet: £{total_cost}");
         }
     }
 }
