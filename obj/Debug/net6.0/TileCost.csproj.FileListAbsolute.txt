@@ -1,0 +1,15 @@
+C:\Users\User\Documents\workspace\TileCost\bin\Debug\net6.0\TileCost.exe
+C:\Users\User\Documents\workspace\TileCost\bin\Debug\net6.0\TileCost.deps.json
+C:\Users\User\Documents\workspace\TileCost\bin\Debug\net6.0\TileCost.runtimeconfig.json
+C:\Users\User\Documents\workspace\TileCost\bin\Debug\net6.0\TileCost.dll
+C:\Users\User\Documents\workspace\TileCost\bin\Debug\net6.0\ref\TileCost.dll
+C:\Users\User\Documents\workspace\TileCost\bin\Debug\net6.0\TileCost.pdb
+C:\Users\User\Documents\workspace\TileCost\obj\Debug\net6.0\TileCost.csproj.AssemblyReference.cache
+C:\Users\User\Documents\workspace\TileCost\obj\Debug\net6.0\TileCost.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\workspace\TileCost\obj\Debug\net6.0\TileCost.AssemblyInfoInputs.cache
+C:\Users\User\Documents\workspace\TileCost\obj\Debug\net6.0\TileCost.AssemblyInfo.cs
+C:\Users\User\Documents\workspace\TileCost\obj\Debug\net6.0\TileCost.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\workspace\TileCost\obj\Debug\net6.0\TileCost.dll
+C:\Users\User\Documents\workspace\TileCost\obj\Debug\net6.0\ref\TileCost.dll
+C:\Users\User\Documents\workspace\TileCost\obj\Debug\net6.0\TileCost.pdb
+C:\Users\User\Documents\workspace\TileCost\obj\Debug\net6.0\TileCost.genruntimeconfig.cache
