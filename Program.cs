@@ -18,9 +18,9 @@ namespace TileCost
 
             Console.Write("What is the shape of the room? ");
             room_type = Console.ReadLine();
-            Console.Write("Enter the width: ");
+            Console.Write("Enter the widthc: ");
             width = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter the length: ");
+            Console.Write("Enter the length (in full metres): ");
             height = Convert.ToInt32(Console.ReadLine());
             if (room_type == "triangle")
             {
@@ -31,7 +31,7 @@ namespace TileCost
                 area = width * height;
             }
             labour_costs = labour_salary * (area / square_feet_per_hour);
-            Console.Write($"Salary costs: £{labour_costs}");
+            Console.WriteLine($"Salary costs: £{labour_costs}");
             total_cost = cost_per_unit * area + labour_costs;
             Console.WriteLine($"Quote for carpet: £{total_cost}");
         }
