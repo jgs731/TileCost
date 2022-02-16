@@ -6,7 +6,7 @@ namespace TileCost
     {
         static void Main(string[] args)
         {
-                        int width;
+            int width;
             int height;
             int costPerUnit = 6;
             int area;
@@ -46,7 +46,6 @@ namespace TileCost
             Console.WriteLine($"Salary costs: £{labourCosts}");
             totalCost = costPerUnit * area + labourCosts;
             Console.WriteLine($"Quote for carpet: £{totalCost}");
-        }
         }
     }
 }
