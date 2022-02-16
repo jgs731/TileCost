@@ -6,19 +6,31 @@ namespace TileCost
     {
         static void Main(string[] args)
         {
-            int width;
+                        int width;
             int height;
             int costPerUnit = 6;
             int area;
-            double totalCost;
-            string roomType;
+            string[] roomTypes = {"rectangle", "square", "triangle"};
+            string roomType = "";
             int labourCosts;
             int labourSalary = 86;
             int squareFeetPerHour = 20;
+            double totalCost;
 
-            Console.Write("What is the shape of the room? ");
-            roomType = Console.ReadLine();
-            Console.Write("Enter the width: ");
+            while (roomType == "")
+            {
+                Console.Write("Select the room shape (1 - rectangle, 2 - square, 3 - triangle): ");
+                try
+                {
+                    roomType = roomTypes[Convert.ToInt32(Console.ReadLine()) - 1];
+                }
+
+                catch(IndexOutOfRangeException)
+                {
+                    Console.WriteLine("Non-existent option. Please re-enter");
+                }
+            }
+            Console.Write("Enter the width (in full metres): ");
             width = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter the length (in full metres): ");
             height = Convert.ToInt32(Console.ReadLine());
@@ -34,6 +46,7 @@ namespace TileCost
             Console.WriteLine($"Salary costs: £{labourCosts}");
             totalCost = costPerUnit * area + labourCosts;
             Console.WriteLine($"Quote for carpet: £{totalCost}");
+        }
         }
     }
 }
